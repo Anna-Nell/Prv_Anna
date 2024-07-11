@@ -1,0 +1,222 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff00;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    position: fixed;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    
+}
+
+nav .active {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 'Times New Roman';
+    color:#ffffff;
+
+}
+nav .uns{
+text-decoration: underline;
+
+
+}
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+    text-align: center;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #ffffff;
+    padding: 1em 1em;
+    transition: color 0.3s;
+   
+}
+nav ul li a:hover {
+    color: #ffffff;
+}
+
+nav .login {
+    color: #ffffff;
+    margin-left: 750px;
+    
+}
+
+nav .button {
+    background-color: #FFA500;
+    color: #000000;
+    padding: 1em 1.5em;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav .button:hover {
+    background-color: #FF8C00;
+}
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('church-choir.jpg') center center/cover no-repeat;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.hero .overlay h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+.geschichte .overlay p {
+    font-size: 1.2em;
+    max-width: 600px;
+}
+
+.geschichte, .modern-approach {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    padding: 40px;
+}
+
+.geschichte .text, .modern-approach .text {
+    flex: 1;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.geschichte .text, .modern-approach .text p{
+ line-height: 150%;
+}
+.geschichte .image, .modern-approach .image {
+    flex: 0.5;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.geschichte .image img, .modern-approach .image img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+.geschichte .text h1, .modern-approach .text h2 {
+    margin-top: 0;
+}
+
+button {
+    background-color: #ffffff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: #ffffff;
+}
+footer {
+    background-color: #555;
+    padding: 80px 20px;
+}
+.footer-footer-fragen{
+    color: #ffffff;
+
+}
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+    color: #ffffff;
+}
+.footer-footer-fragen a{
+    color: #ffffff;
+    text-decoration: underline;
+}
+.footer-section {
+    margin: 10px;
+    text-decoration: underline
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, 
+.footer-section a, 
+.footer-section ul {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0;
+    text-decoration: none;
+}
+
+
+.footer-section a:hover {
+    text-decoration: underline;
+    color: #ffffff;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0; 
+}
+
+.footer-section ul li {
+    margin-bottom: 15px;
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 15px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
+}

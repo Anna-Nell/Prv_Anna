@@ -1,0 +1,250 @@
+/*navbar*/
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background-color: #ffffff00;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
+    position: static;
+    width: 100%;
+    z-index: 1000;
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em 2em;
+    
+}
+
+nav .active {
+    font-size: 1.5em;
+    text-decoration: none;
+    font-weight: 'Times New Roman';
+    color:#000000;
+
+}
+
+nav ul {
+    list-style: none;
+    margin-top: 10px;
+    padding: 0;
+    display: flex;
+    gap: 1em;
+    text-align: center;
+    align-items: center;
+}
+
+nav ul li a {
+    text-decoration: none;
+    margin-top: 10px;
+    color: #000000;
+    padding: 1em 1em;
+    transition: color 0.3s;
+   
+}
+nav ul li a:hover {
+    color: #000000;
+}
+
+nav .login {
+    color: #000000;
+    margin-left: 750px;
+    
+}
+
+nav .button {
+    background-color: #FFA500;
+    color: #000000;
+    padding: 1em 1.5em;
+    border-radius: 2px;
+    text-decoration: none;
+    transition: background-color 0.3s;
+}
+
+nav .button:hover {
+    background-color: #FF8C00;
+}
+
+
+.hero {
+    position: relative;
+    height: 100vh;
+    background: url('church-choir.jpg') center center/cover no-repeat;
+}
+
+.hero img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.hero .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #000000;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 0 2em;
+}
+
+.hero .overlay h1 {
+    font-size: 2.5em;
+    margin-bottom: 0.5em;
+}
+
+.hero .overlay p {
+    font-size: 1.2em;
+    max-width: 600px;
+}
+/*Blog*/
+.main.container{
+    background-color: #888;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+.container {
+    
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    gap: 20px;
+    padding: 20px;
+    max-width: 1200px;
+    margin: auto;
+   
+}
+
+.post {
+    background-color: #ffffff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    flex: 1 1 calc(50% - 20px); /* Two posts per row with space between them */
+    margin-bottom: 20px; /* Ensure there's space between rows */   
+   
+  
+}
+
+
+
+.post img {
+    width: 80%;
+    height: auto;
+}
+
+.post-info {
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+}
+
+.date {
+    color: #888;
+    font-size: 14px;
+    text-align: center;
+}
+
+.title {
+    font-size: 24px;
+    margin: 10px 0 5px;
+    text-align: center;
+}
+
+.subtitle {
+    font-size: 18px;
+    margin: 5px 0 20px;
+    color: #555;
+    text-align: center;
+}
+
+.read-more {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+    font-size: 16px;
+    text-align: center;
+    align-items: center;
+}
+
+.read-more:hover {
+    text-decoration: underline;
+    text-align: center;
+}
+/*Fotter*/
+footer {
+    background-color: #333;
+    padding: 80px 20px;
+  }
+  
+  .footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+  }
+  
+  .footer-section {
+    margin: 10px;
+    text-decoration: underline
+  }
+  
+  .footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .footer-fragen{
+    color:#ffffff;
+   
+   }
+  
+  .footer-section p, 
+  .footer-section a, 
+  .footer-section ul {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0;
+    text-decoration: none;
+  }
+  
+  
+  .footer-section a:hover {
+    text-decoration: underline;
+  }
+  
+  .footer-section ul {
+    list-style-type: none;
+    padding: 0; 
+  }
+  
+  .footer-section ul li {
+    margin-bottom: 15px;
+  }
+  
+  .social-media a {
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 15px;
+  }
+  
+  .social-media img {
+    width: 20px;
+    height: 20px;
+  }
