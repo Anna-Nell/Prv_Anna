@@ -120,9 +120,8 @@ body {
 }
 
 .container {
-    
     display: flex;
-    flex-wrap: wrap;
+    flex-wrap:wrap;
     justify-content: space-between;
     gap: 20px;
     padding: 20px;
@@ -132,21 +131,17 @@ body {
 }
 
 .post {
-    background-color: #ffffff;
-    border-radius: 8px;
     overflow: hidden;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     flex: 1 1 calc(50% - 20px); /* Two posts per row with space between them */
     margin-bottom: 20px; /* Ensure there's space between rows */   
-   
+    
   
 }
-
-
 
 .post img {
     width: 80%;
     height: auto;
+    
 }
 
 .post-info {
@@ -187,6 +182,7 @@ body {
     text-decoration: underline;
     text-align: center;
 }
+
 /*Fotter*/
 footer {
     background-color: #333;
@@ -209,7 +205,7 @@ footer {
     font-size: 18px;
     margin-bottom: 10px;
   }
-  
+
   .footer-fragen{
     color:#ffffff;
    

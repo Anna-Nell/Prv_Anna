@@ -6,7 +6,7 @@ body {
 header {
     background-color: #ffffff00;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0);
-    position: fixed;
+    position: static;
     width: 100%;
     z-index: 1000;
 }
@@ -105,4 +105,83 @@ nav .button:hover {
 .hero .overlay p {
     font-size: 1.2em;
     max-width: 600px;
+}
+
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    padding: 10px;
+}
+
+.gallery img {
+    width: 100%;
+    height: auto;
+    display: block;
+}
+footer {
+    background-color: #3b6b75;
+    padding: 80px 20px;
+}
+
+.footer-content {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    text-align: left;
+}
+
+.footer-section {
+    margin: 10px;
+    text-decoration: underline;
+    color: #ffffff
+}
+
+.footer-fragen{
+ color:#ffffff;
+
+}
+
+.footer-section h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-section p, 
+.footer-section a, 
+.footer-section ul {
+    font-size: 14px;
+    color: #ffffff;
+    margin: 5px 0;
+    text-decoration: none;
+    margin-left: -5px;
+}
+
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.footer-section ul {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.footer-section ul li {
+    margin-bottom: 10px;
+   
+}
+
+.social-media a {
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 15px;
+}
+
+.social-media img {
+    width: 20px;
+    height: 20px;
 }
